@@ -3,87 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>image_download</title>
+  <meta name="description" content="设卡收集展示页" />
+  <title>OC Card Archive</title>
   <link rel="stylesheet" href="./style.css" />
 </head>
-
 <body>
-  <canvas id="particle-canvas"></canvas>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
 
   <main class="page">
     <section class="hero glass-card fade-up">
       <div class="card-glow"></div>
-
       <div class="hero-content">
         <div>
-          <div class="eyebrow">IMAGE DOWNLOAD · HIGH RESOLUTION</div>
-          <h1>图片下载</h1>
+          <div class="eyebrow">CHARACTER CARD · ARCHIVE</div>
+          <h1>空白地-设卡档案馆</h1>
+          <p>收集并展示设卡。可以按类别筛选，也可以通过 OC 姓名或玩家名快速查找。</p>
         </div>
-
-        <div class="hero-mark">DOWNLOAD</div>
+        <div class="hero-mark">ARCHIVE</div>
       </div>
+    </section>
+
+    <section class="control-panel glass-card fade-up delay" aria-label="搜索与筛选">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+        </svg>
+        <input id="search-input" type="search" placeholder="搜索 OC 姓名或玩家名……" autocomplete="off" />
+      </div>
+
+      <label class="select-box">
+        <span>分类</span>
+        <select id="category-filter">
+          <option value="all">全部设卡</option>
+          <option value="player">玩家</option>
+          <option value="boss">BOSS</option>
+          <option value="npc">NPC</option>
+        </select>
+      </label>
+
+      <button id="add-card-button" class="main-btn" type="button">＋ 录入设卡</button>
     </section>
 
     <section class="toolbar fade-up delay">
-      <div class="toolbar-text">
-        玩家下载1，2；boss下载3
+      <div>
+        <div id="result-count" class="toolbar-text">正在读取设卡……</div>
+        <div id="active-filter" class="toolbar-subtext">显示全部分类</div>
       </div>
-
-      <button class="main-btn" onclick="downloadAllImages()">
-        下载全部图片
-      </button>
+      <button id="download-visible-button" class="ghost-btn" type="button">下载当前结果</button>
     </section>
 
-    <section class="gallery fade-up delay">
-      <article class="image-card">
-        <div class="image-frame">
-          <img src="./images/pic1.jpg" alt="高清图片 01" />
-          <span class="image-number">NO.01</span>
-        </div>
+    <section id="gallery" class="gallery fade-up delay" aria-live="polite"></section>
 
-        <div class="image-info">
-          <h2>玩家设卡1</h2>
-          <a class="download-btn" href="./images/pic1.jpg" download="image-01.jpg">
-            下载
-          </a>
-        </div>
-      </article>
-
-      <article class="image-card">
-        <div class="image-frame">
-          <img src="./images/pic2.jpg" alt="高清图片 02" />
-          <span class="image-number">NO.02</span>
-        </div>
-
-        <div class="image-info">
-          <h2>玩家设卡2</h2>
-          <a class="download-btn" href="./images/pic2.jpg" download="image-02.jpg">
-            下载
-          </a>
-        </div>
-      </article>
-
-      <article class="image-card">
-        <div class="image-frame">
-          <img src="./images/pic3.jpg" alt="高清图片 03" />
-          <span class="image-number">NO.03</span>
-        </div>
-
-        <div class="image-info">
-          <h2>boss设卡</h2>
-          <a class="download-btn" href="./images/pic3.jpg" download="image-03.jpg">
-            下载
-          </a>
-        </div>
-      </article>
+    <section id="empty-state" class="empty-state glass-card" hidden>
+      <div class="empty-icon">⌕</div>
+      <h2>没有找到符合条件的设卡</h2>
+      <p>试试更换分类，或输入其他 OC 姓名。</p>
+      <button id="clear-filter-button" class="ghost-btn" type="button">清除筛选</button>
     </section>
 
-    <footer class="footer">
-      IMAGE DOWNLOAD SITE
-    </footer>
+    <footer class="footer">OC CARD ARCHIVE · PLAYER / BOSS / NPC</footer>
   </main>
 
+  <dialog id="card-dialog" class="modal">
+    <form id="card-form" class="modal-card">
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">ADD A NEW CARD</div>
+          <h2>录入新设卡</h2>
+        </div>
+        <button class="icon-btn" type="button" data-close-dialog aria-label="关闭">×</button>
+      </div>
+
+      <div class="form-grid">
+        <label class="field field-wide">
+          <span>设卡图片 *</span>
+          <input id="card-image" type="file" accept="image/png,image/jpeg,image/webp,image/gif" required />
+          <small>支持 JPG、PNG、WEBP、GIF，建议单张不超过 8 MB。</small>
+        </label>
+
+        <label class="field">
+          <span>OC 姓名 *</span>
+          <input id="card-name" type="text" maxlength="50" placeholder="例如：阿斯特拉" required />
+        </label>
+
+        <label class="field">
+          <span>分类 *</span>
+          <select id="card-category" required>
+            <option value="player">玩家</option>
+            <option value="boss">BOSS</option>
+            <option value="npc">NPC</option>
+          </select>
+        </label>
+
+        <label class="field field-wide">
+          <span>玩家名 / 创作者</span>
+          <input id="card-owner" type="text" maxlength="50" placeholder="用于搜索，可留空" />
+        </label>
+
+        <label class="field field-wide">
+          <span>一句话简介</span>
+          <textarea id="card-description" maxlength="160" rows="3" placeholder="简单介绍角色身份、阵营或关键词……"></textarea>
+        </label>
+      </div>
+
+      <p class="storage-note">保留接口：网页内录入的数据只保存在当前浏览器。把图片放入 images 文件夹，在 data.js 中添加资料。</p>
+
+      <div class="modal-actions">
+        <button class="ghost-btn" type="button" data-close-dialog>取消</button>
+        <button class="main-btn" type="submit">保存设卡</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="preview-dialog" class="preview-modal">
+    <button class="preview-close icon-btn" type="button" data-close-preview aria-label="关闭预览">×</button>
+    <img id="preview-image" src="" alt="设卡大图预览" />
+    <div class="preview-caption">
+      <strong id="preview-name"></strong>
+      <span id="preview-meta"></span>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./data.js"></script>
   <script src="./script.js"></script>
 </body>
 </html>
