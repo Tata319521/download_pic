@@ -42,7 +42,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./images/miya.jpg"
   },
   {
-    id: "public-player-004",
+    id: "public-player-005",
     name: "白鸟雾",
     category: "player",
     owner: "Miya",
