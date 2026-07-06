@@ -25,6 +25,32 @@ window.PUBLIC_CARD_DATA = [
     image: "./images/pic2.jpg"
   },
   {
+    id: "public-player-003",
+    name: "宁默",
+    category: "player",
+    owner: "恬子轩",
+    description: "ALB异象调查局成员",
+    image: "./images/恬子轩.png"
+  },
+  
+  {
+    id: "public-player-004",
+    name: "白鸟雾",
+    category: "player",
+    owner: "Miya",
+    description: "外热内冷，混乱中立的纯种乐子人",
+    image: "./images/miya.jpg"
+  },
+  {
+    id: "public-player-004",
+    name: "白鸟雾",
+    category: "player",
+    owner: "Miya",
+    description: "外热内冷，混乱中立的纯种乐子人",
+    image: "./images/miya2.jpg"
+  },
+  {
+  {
     id: "public-boss-001",
     name: "boss设卡展示",
     category: "boss",
