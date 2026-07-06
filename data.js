@@ -49,7 +49,7 @@ window.PUBLIC_CARD_DATA = [
     description: "外热内冷，混乱中立的纯种乐子人",
     image: "./images/miya2.jpg"
   },
-  {
+  
   {
     id: "public-boss-001",
     name: "boss设卡展示",
