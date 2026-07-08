@@ -30,7 +30,7 @@ window.PUBLIC_CARD_DATA = [
     category: "player",
     owner: "恬子轩",
     description: "ALB异象调查局成员",
-    image: "./images/恬子轩.png"
+    image: "./images/恬子轩0.png"
   },
   
   {
@@ -39,7 +39,7 @@ window.PUBLIC_CARD_DATA = [
     category: "player",
     owner: "Miya",
     description: "外热内冷，混乱中立的纯种乐子人",
-    image: "./images/miya.jpg"
+    image: "./images/miya0.jpg"
   },
   {
     id: "public-player-005",
@@ -47,7 +47,7 @@ window.PUBLIC_CARD_DATA = [
     category: "player",
     owner: "Miya",
     description: "外热内冷，混乱中立的纯种乐子人",
-    image: "./images/miya2.jpg"
+    image: "./images/miya20.jpg"
   },
   
   {
