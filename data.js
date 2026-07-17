@@ -77,7 +77,7 @@ window.PUBLIC_CARD_DATA = [
     name: "瑟尤蒂娅·瑞德拉",
     category: "player",
     owner: "拾壹",
-    description: "暂无",
+    description: "",
     image: "./images/瑟尤蒂娅·瑞德拉.jpg"
   },
   {
@@ -85,7 +85,7 @@ window.PUBLIC_CARD_DATA = [
     name: "白椛子",
     category: "player",
     owner: "颜文字怎么你们了",
-    description: "暂无",
+    description: "",
     image: "./images/白椛子.jpg"
   },
   {
@@ -101,7 +101,7 @@ window.PUBLIC_CARD_DATA = [
     name: "蔺悬",
     category: "player",
     owner: "跟不上时代",
-    description: "暂无",
+    description: "",
     image: "./images/蔺悬.jpg"
   },
   {
@@ -117,7 +117,7 @@ window.PUBLIC_CARD_DATA = [
     name: "阿泰里斯",
     category: "player",
     owner: "咖啡",
-    description: "暂无",
+    description: "",
     image: "./images/阿泰里斯.jpg"
   }
 ];
