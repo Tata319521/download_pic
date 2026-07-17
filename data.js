@@ -44,23 +44,15 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-005",
     name: "Evan",
     category: "player",
-    owner: "",
+    owner: "棥",
     description: "",
     image: "./image/Evan.jpg"
-  },
-  {
-    id: "public-player-006",
-    name: "于瑾谦",
-    category: "player",
-    owner: "",
-    description: "",
-    image: "./image/于瑾谦.jpg"
   },
   {
     id: "public-player-007",
     name: "周嘉鸣",
     category: "player",
-    owner: "",
+    owner: "小暮",
     description: "",
     image: "./image/周嘉鸣.jpg"
   },
@@ -68,7 +60,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-008",
     name: "因佩里图斯·格林斯通",
     category: "player",
-    owner: "",
+    owner: "未惜",
     description: "",
     image: "./image/因佩里图斯·格林斯通.jpg"
   },
@@ -76,7 +68,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-009",
     name: "夏宇尘",
     category: "player",
-    owner: "",
+    owner: "xm，行虚循实",
     description: "",
     image: "./image/夏宇尘.jpg"
   },
@@ -92,7 +84,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-011",
     name: "斛谷梢子",
     category: "player",
-    owner: "",
+    owner: "北原",
     description: "",
     image: "./image/斛谷梢子.jpg"
   },
@@ -100,7 +92,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-012",
     name: "柯萝娜·琼斯",
     category: "player",
-    owner: "",
+    owner: "恶劣天性",
     description: "",
     image: "./image/柯萝娜·琼斯.jpg"
   },
@@ -108,7 +100,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-013",
     name: "池鱼",
     category: "player",
-    owner: "",
+    owner: "于瑶",
     description: "",
     image: "./image/池鱼.jpg"
   },
@@ -116,7 +108,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-014",
     name: "沈源",
     category: "player",
-    owner: "",
+    owner: "神渊",
     description: "",
     image: "./image/沈源.jpg"
   },
@@ -124,7 +116,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-015",
     name: "渊",
     category: "player",
-    owner: "",
+    owner: "江绘",
     description: "",
     image: "./image/渊.jpg"
   },
@@ -132,7 +124,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-016",
     name: "烛玄",
     category: "player",
-    owner: "",
+    owner: "云烟",
     description: "",
     image: "./image/烛玄.jpg"
   },
@@ -177,18 +169,10 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/白鸟雾.jpg"
   },
   {
-    id: "public-player-025",
-    name: "白鸟雾（背景）",
-    category: "player",
-    owner: "Miya",
-    description: "背景设卡。",
-    image: "./image/白鸟雾_背景.jpg"
-  },
-  {
     id: "public-player-026",
     name: "空白",
     category: "player",
-    owner: "",
+    owner: "空白",
     description: "",
     image: "./image/空白.jpg"
   },
@@ -196,7 +180,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-027",
     name: "红都匪恻",
     category: "player",
-    owner: "",
+    owner: "惊照",
     description: "",
     image: "./image/红都匪恻.jpg"
   },
@@ -204,7 +188,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-028",
     name: "艾萨克",
     category: "player",
-    owner: "",
+    owner: "九条凌华",
     description: "",
     image: "./image/艾萨克.jpg"
   },
@@ -220,7 +204,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-032",
     name: "苓芜",
     category: "player",
-    owner: "",
+    owner: "流",
     description: "",
     image: "./image/苓芜.jpg"
   },
@@ -228,7 +212,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-033",
     name: "莉丝",
     category: "player",
-    owner: "",
+    owner: "焕晴",
     description: "",
     image: "./image/莉丝.jpg"
   },
@@ -249,14 +233,6 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/西园寺·莉奈.jpg"
   },
   {
-    id: "public-player-038",
-    name: "连七果",
-    category: "player",
-    owner: "",
-    description: "",
-    image: "./image/连七果.jpg"
-  },
-  {
     id: "public-player-039",
     name: "阿泰里斯",
     category: "player",
@@ -268,7 +244,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-041",
     name: "露可",
     category: "player",
-    owner: "",
+    owner: "rain",
     description: "",
     image: "./image/露可.jpg"
   },
@@ -276,7 +252,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-042",
     name: "青遇",
     category: "player",
-    owner: "",
+    owner: "花露水",
     description: "",
     image: "./image/青遇.jpg"
   }
