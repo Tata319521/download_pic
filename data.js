@@ -38,18 +38,50 @@ window.PUBLIC_CARD_DATA = [
     category: "player",
     owner: "恬子轩",
     description: "ALB异象调查局成员",
-    image: "./image/空白.jpg"
+    image: "./image/恬子轩.png"
   },
   {
     id: "public-player-005",
-    name: "白鸟雾",
+    name: "Evan",
     category: "player",
-    owner: "Miya",
-    description: "外热内冷，混乱中立的纯种乐子人",
-    image: "./image/白鸟雾.jpg"
+    owner: "",
+    description: "",
+    image: "./image/Evan.jpg"
   },
   {
     id: "public-player-006",
+    name: "于瑾谦",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/于瑾谦.jpg"
+  },
+  {
+    id: "public-player-007",
+    name: "周嘉鸣",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/周嘉鸣.jpg"
+  },
+  {
+    id: "public-player-008",
+    name: "因佩里图斯·格林斯通",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/因佩里图斯·格林斯通.jpg"
+  },
+  {
+    id: "public-player-009",
+    name: "夏宇尘",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/夏宇尘.jpg"
+  },
+  {
+    id: "public-player-010",
     name: "希莱尔",
     category: "player",
     owner: "橘子",
@@ -57,7 +89,55 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/希莱尔.jpg"
   },
   {
-    id: "public-player-007",
+    id: "public-player-011",
+    name: "斛谷梢子",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/斛谷梢子.jpg"
+  },
+  {
+    id: "public-player-012",
+    name: "柯萝娜·琼斯",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/柯萝娜·琼斯.jpg"
+  },
+  {
+    id: "public-player-013",
+    name: "池鱼",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/池鱼.jpg"
+  },
+  {
+    id: "public-player-014",
+    name: "沈源",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/沈源.jpg"
+  },
+  {
+    id: "public-player-015",
+    name: "渊",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/渊.jpg"
+  },
+  {
+    id: "public-player-016",
+    name: "烛玄",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/烛玄.jpg"
+  },
+  {
+    id: "public-player-017",
     name: "無名氏",
     category: "player",
     owner: "果子",
@@ -65,7 +145,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/無名氏.jpg"
   },
   {
-    id: "public-player-008",
+    id: "public-player-019",
     name: "珞蓓丝",
     category: "player",
     owner: "糯米蛾",
@@ -73,7 +153,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/珞蓓丝.jpg"
   },
   {
-    id: "public-player-009",
+    id: "public-player-021",
     name: "瑟尤蒂娅·瑞德拉",
     category: "player",
     owner: "拾壹",
@@ -81,7 +161,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/瑟尤蒂娅·瑞德拉.jpg"
   },
   {
-    id: "public-player-010",
+    id: "public-player-023",
     name: "白椛子",
     category: "player",
     owner: "颜文字怎么你们了",
@@ -89,7 +169,47 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/白椛子.jpg"
   },
   {
-    id: "public-player-011",
+    id: "public-player-024",
+    name: "白鸟雾",
+    category: "player",
+    owner: "Miya",
+    description: "外热内冷，混乱中立的纯种乐子人",
+    image: "./image/白鸟雾.jpg"
+  },
+  {
+    id: "public-player-025",
+    name: "白鸟雾（背景）",
+    category: "player",
+    owner: "Miya",
+    description: "背景设卡。",
+    image: "./image/白鸟雾_背景.jpg"
+  },
+  {
+    id: "public-player-026",
+    name: "空白",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/空白.jpg"
+  },
+  {
+    id: "public-player-027",
+    name: "红都匪恻",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/红都匪恻.jpg"
+  },
+  {
+    id: "public-player-028",
+    name: "艾萨克",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/艾萨克.jpg"
+  },
+  {
+    id: "public-player-029",
     name: "苏栩礼",
     category: "player",
     owner: "苏酉禾",
@@ -97,7 +217,23 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/苏栩礼.jpg"
   },
   {
-    id: "public-player-012",
+    id: "public-player-032",
+    name: "苓芜",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/苓芜.jpg"
+  },
+  {
+    id: "public-player-033",
+    name: "莉丝",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/莉丝.jpg"
+  },
+  {
+    id: "public-player-034",
     name: "蔺悬",
     category: "player",
     owner: "跟不上时代",
@@ -105,7 +241,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/蔺悬.jpg"
   },
   {
-    id: "public-player-013",
+    id: "public-player-036",
     name: "西园寺·莉奈",
     category: "player",
     owner: "花椒",
@@ -113,11 +249,35 @@ window.PUBLIC_CARD_DATA = [
     image: "./image/西园寺·莉奈.jpg"
   },
   {
-    id: "public-player-014",
+    id: "public-player-038",
+    name: "连七果",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/连七果.jpg"
+  },
+  {
+    id: "public-player-039",
     name: "阿泰里斯",
     category: "player",
     owner: "咖啡",
     description: "",
     image: "./image/阿泰里斯.jpg"
+  },
+  {
+    id: "public-player-041",
+    name: "露可",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/露可.jpg"
+  },
+  {
+    id: "public-player-042",
+    name: "青遇",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./image/青遇.jpg"
   }
 ];
