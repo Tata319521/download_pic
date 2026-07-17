@@ -12,7 +12,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-001",
     name: "玩家设卡展示",
     category: "player",
-    owner: "黎隐",
+    owner: "系统",
     description: "用于演示玩家 OC 设卡的展示样式。",
     image: "./images/pic1.jpg"
   },
@@ -20,7 +20,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-002",
     name: "扩展/技能设卡展示",
     category: "player",
-    owner: "黎隐",
+    owner: "系统",
     description: "用于演示玩家 OC 设卡的展示样式。",
     image: "./images/pic2.jpg"
   },
@@ -28,7 +28,7 @@ window.PUBLIC_CARD_DATA = [
     id: "public-boss-003",
     name: "BOSS/NPC设卡展示",
     category: "boss", "npc"
-    owner: "黎隐",
+    owner: "系统",
     description: "用于演示 BOSS 设卡的展示样式。",
     image: "./images/pic3.jpg"
   },
