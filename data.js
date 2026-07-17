@@ -25,7 +25,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./images/pic2.jpg"
   },
   {
-    id: "public-boss-001",
+    id: "public-boss-003",
     name: "BOSS/NPC设卡展示",
     category: "boss", "npc"
     owner: "黎隐",
@@ -33,7 +33,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./images/pic3.jpg"
   },
   {
-    id: "public-player-003",
+    id: "public-player-004",
     name: "宁默",
     category: "player",
     owner: "恬子轩",
@@ -41,7 +41,7 @@ window.PUBLIC_CARD_DATA = [
     image: "./images/恬子轩.png"
   },
   {
-    id: "public-player-004",
+    id: "public-player-005",
     name: "白鸟雾",
     category: "player",
     owner: "Miya",
