@@ -52,72 +52,72 @@ window.PUBLIC_CARD_DATA = [
     id: "public-player-006",
     name: "希莱尔",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "橘子",
+    description: "天才长笛手",
     image: "./images/希莱尔.jpg"
   },
   {
     id: "public-player-007",
     name: "無名氏",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "果子",
+    description: "自由插畫師",
     image: "./images/無名氏.jpg"
   },
   {
     id: "public-player-008",
     name: "珞蓓丝",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "糯米蛾",
+    description: "药剂师",
     image: "./images/珞蓓丝.jpg"
   },
   {
     id: "public-player-009",
     name: "瑟尤蒂娅·瑞德拉",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "拾壹",
+    description: "暂无",
     image: "./images/瑟尤蒂娅·瑞德拉.jpg"
   },
   {
     id: "public-player-010",
     name: "白椛子",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "颜文字怎么你们了",
+    description: "暂无",
     image: "./images/白椛子.jpg"
   },
   {
     id: "public-player-011",
     name: "苏栩礼",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "苏酉禾",
+    description: "探索新知的海底祭司",
     image: "./images/苏栩礼.jpg"
   },
   {
     id: "public-player-012",
     name: "蔺悬",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "跟不上时代",
+    description: "暂无",
     image: "./images/蔺悬.jpg"
   },
   {
     id: "public-player-013",
     name: "西园寺·莉奈",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "花椒",
+    description: "珠宝鉴定师",
     image: "./images/西园寺·莉奈.jpg"
   },
   {
     id: "public-player-014",
     name: "阿泰里斯",
     category: "player",
-    owner: "",
-    description: "",
+    owner: "咖啡",
+    description: "暂无",
     image: "./images/阿泰里斯.jpg"
   }
 ];
