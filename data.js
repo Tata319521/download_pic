@@ -30,26 +30,16 @@ window.PUBLIC_CARD_DATA = [
     category: "player",
     owner: "恬子轩",
     description: "ALB异象调查局成员",
-    image: "./images/恬子轩0.png"
+    image: "./images/恬子轩.png"
   },
-  
   {
     id: "public-player-004",
     name: "白鸟雾",
     category: "player",
     owner: "Miya",
     description: "外热内冷，混乱中立的纯种乐子人",
-    image: "./images/miya0.jpg"
+    image: "./images/白鸟雾.jpg"
   },
-  {
-    id: "public-player-005",
-    name: "白鸟雾",
-    category: "player",
-    owner: "Miya",
-    description: "外热内冷，混乱中立的纯种乐子人",
-    image: "./images/miya20.jpg"
-  },
-  
   {
     id: "public-boss-001",
     name: "boss设卡展示",
@@ -59,11 +49,75 @@ window.PUBLIC_CARD_DATA = [
     image: "./images/pic3.jpg"
   },
   {
-    id: "public-npc-001",
-    name: "npc设卡展示",
-    category: "npc",
-    owner: "黎隐",
-    description: "用于演示 NPC 设卡的展示样式。",
-    image: "./images/player-example.svg"
+    id: "public-player-006",
+    name: "希莱尔",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/希莱尔.jpg"
+  },
+  {
+    id: "public-player-007",
+    name: "無名氏",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/無名氏.jpg"
+  },
+  {
+    id: "public-player-008",
+    name: "珞蓓丝",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/珞蓓丝.jpg"
+  },
+  {
+    id: "public-player-009",
+    name: "瑟尤蒂娅·瑞德拉",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/瑟尤蒂娅·瑞德拉.jpg"
+  },
+  {
+    id: "public-player-010",
+    name: "白椛子",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/白椛子.jpg"
+  },
+  {
+    id: "public-player-011",
+    name: "苏栩礼",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/苏栩礼.jpg"
+  },
+  {
+    id: "public-player-012",
+    name: "蔺悬",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/蔺悬.jpg"
+  },
+  {
+    id: "public-player-013",
+    name: "西园寺·莉奈",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/西园寺·莉奈.jpg"
+  },
+  {
+    id: "public-player-014",
+    name: "阿泰里斯",
+    category: "player",
+    owner: "",
+    description: "",
+    image: "./images/阿泰里斯.jpg"
   }
 ];
