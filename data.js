@@ -38,7 +38,7 @@ window.PUBLIC_CARD_DATA = [
     category: "player",
     owner: "恬子轩",
     description: "ALB异象调查局成员",
-    image: "./image/恬子轩.png"
+    image: "./image/宁默.jpg"
   },
   {
     id: "public-player-005",
