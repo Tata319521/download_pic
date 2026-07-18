@@ -258,10 +258,10 @@ window.PUBLIC_CARD_DATA = [
   },
   {
     id: "public-player-043",
-    name: "长鱼宴",
+    name: "长鱼晏",
     category: "player",
     owner: "粥粥",
     description: "",
-    image: "./image/长鱼宴.jpg"
+    image: "./image/长鱼晏.jpg"
   }
 ];
