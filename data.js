@@ -263,5 +263,13 @@ window.PUBLIC_CARD_DATA = [
     owner: "粥粥",
     description: "",
     image: "./image/长鱼晏.jpg"
+  },
+  {
+    id: "public-boss-044",
+    name: "管理员",
+    category: "boss",
+    owner: "黎隐",
+    description: "",
+    image: "./image/管理员.jpg"
   }
 ];
