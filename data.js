@@ -255,5 +255,13 @@ window.PUBLIC_CARD_DATA = [
     owner: "花露水",
     description: "",
     image: "./image/青遇.jpg"
+  },
+  {
+    id: "public-player-043",
+    name: "长鱼宴",
+    category: "player",
+    owner: "粥粥",
+    description: "",
+    image: "./image/长鱼宴.jpg"
   }
 ];
